@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech and General - Home</title>
-</head>
-<body>
-        <h1>Home Page</h1>
-</body>
-</html>
+{% extends 'blog/base.html' %}
+{% block content %}
+        {% for post in posts %}
+                <h1>{{post.title}} - {{post.author}}. Date: {{post.date_posted}} </h1>
+                <p>{{post.content}}</p>
+        {% endfor %}
+{% endblock content %}
