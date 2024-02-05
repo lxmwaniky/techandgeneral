@@ -1,0 +1,141 @@
+<div class="page-preloader preloader-wrapp">
+            <img src="assets/images/logo_navbar.svg" alt="">
+            <div class="preloader"></div>
+        </div>
+        <!-- /Preloader -->
+        <!-- Navbar -->
+        <nav class="navbar-youplay navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="off-canvas" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo_navbar.svg" alt="">
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class=" dropdown dropdown-hover">
+                            <a href="store-1.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> The Blog <span class="caret"></span>
+                                <span class="label">Latest content & News</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <ul role="menu">
+                                    <li>
+                                        <a href="blog./index.html"> Blog Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog./index.html#tech-reviews"> Tech Reviews</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog./captain-crunch.html"> Captain Crunch </a>
+                                    </li>
+                                    <li>
+                                        <a href="blog./code.html"> Code </a>
+                                    </li>
+                                </ul>
+                                <ul role="menu">
+                                    <li>
+                                        <a href="blog./index.html#news"> News </a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </li>
+                        <li class=" dropdown dropdown-hover">
+                            <a href="blog-1.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Gaming Hub <span class="caret"></span>
+                                <span class="label"> &#9651; X &#9675; &#9725;</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <ul role="menu">
+                                    <li>
+                                        <a href="gaming/index.html"> Game Hub Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="gaming/index.html"> Game Reviews </a>
+                                    </li>
+                                    <li>
+                                        <a href="gaming/index.html"> Battlestation reviews </a>
+                                    </li>
+                                    <li>
+                                        <a href="gaming/index.html"> Console only &#10680;</a>
+                                    </li>
+                                </ul>
+                                <ul role="menu">
+                                    <li>
+                                        <a href="gaming/e-sports/index.html"> E-sports  &#9865;</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-post-2.html"> Mobile gaming</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-post-3.html"> News </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class=" dropdown dropdown-hover">
+                            <a href="components.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">  <span class=""></span>
+                                <span class="label"></span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <ul role="menu">
+                                    <li>
+                                        <a href="winston/index.html">  </a>
+                                    </li>
+                                    <li>
+                                        <a href="about/index.html">  </a>
+                                    </li>
+                                    <li>
+                                        <a href="contact-us/index.html">  </a>
+                                    </li>
+                                    
+                                </ul>
+                               <!-- <ul role="menu">
+                                    <li>
+                                        <a href="widgets.html"> Widgets <span class="badge bg-default">New</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                    <li>
+                                        <a href="search.html"> Search </a>
+                                    </li>
+                                    <li>
+                                        <a href="404.html"> 404 </a>
+                                    </li>
+                                    <li>
+                                        <a href="blank.html"> Blank </a>
+                                    </li>-
+                                </ul>-->
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <!--<li class=" dropdown dropdown-hover">
+                           
+                            </div>
+                        </li>-->
+                        <li>
+                            <a class="search-toggle" href="search.html">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>
+                        <!--<li class="dropdown dropdown-hover dropdown-cart">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                                    <div class="col-xs-9 col-md-8">
+                             
+                                        <a class="no-fade" href="#">Lost password?</a> | <a href="#" class="no-fade" data-toggle="modal" data-target="#nav-registration">Register</a>
+                                    </p>
+                                </form>
+                            </div>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
