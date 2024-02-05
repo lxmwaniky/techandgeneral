@@ -1,0 +1,11 @@
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+    div.iphone12 {
+      display: none;
+    }
+  }
+
+  .text-wrap{
+    float: left;
+    margin: 5px;
+  }

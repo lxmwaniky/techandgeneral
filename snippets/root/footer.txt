@@ -1,0 +1,113 @@
+ <footer class="youplay-footer youplay-footer-parallax">
+                <div class="image" data-speed="0.4" data-img-position="50% 0%">
+                    <img src="assets/images/footer-bg.jpg" alt="" class="jarallax-img">
+                </div>
+                <div class="wrapper">
+                    <!-- Social Buttons -->
+                    <div class="social">
+                        <div class="container">
+                            <h3>Connect socially with <strong>TechandGeneral&trade;</strong></h3>
+                            <div class="social-icons">
+                                <div class="social-icon">
+                                    <a href="https://discord.gg/GT4hUz">
+                                        <i class="fab fa-discord"></i>
+                                        <span>Subscribe to Discord</span>
+                                    </a>
+                                </div>
+                                <div class="social-icon">
+                                    <a href="https://t.me/techandgeneral">
+                                        <i class="fab fa-telegram"></i>
+                                        <span>Join the community's channel</span>
+                                    </a>
+                                </div>
+                                <div class="social-icon">
+                                    <a href="https://www.instagram.com/techandgeneral/">
+                                        <i class="fab fa-instagram"></i>
+                                        <span>Follow us on Instagram</span>
+                                    </a>
+                                </div>
+                                <div class="social-icon">
+                                    <a href="https://twitter.com/techandgeneral">
+                                        <i class="fab fa-twitter-square"></i>
+                                        <span>Follow  us on Twitter</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Social Buttons -->
+                    <!-- Copyright -->
+                    <div class="copyright">
+                        <div class="container">
+                            <p>2020 &copy; <strong>TechandGeneral</strong>. All rights reserved</p>
+                        </div>
+                    </div>
+                    <!-- /Copyright -->
+                </div>
+            </footer>
+            <!-- /Footer -->
+        </div>
+        <!-- Search Block -->
+        <div class="search-block">
+            <a href="#" class="search-toggle">
+                <i class="fa fa-times"></i>
+            </a>
+            <form action="search.html">
+                <div class="youplay-input">
+                    <input type="text" name="search" placeholder="Search...">
+                </div>
+            </form>
+        </div>
+        <!-- /Search Block -->
+        <!-- START: Scripts -->
+        <!-- Object Fit Polyfill -->
+        <script src="assets/vendor/object-fit-images/dist/ofi.min.js"></script>
+        <!-- jQuery -->
+        <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+        <!-- Hexagon Progress -->
+        <script src="assets/vendor/HexagonProgress/jquery.hexagonprogress.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- Jarallax -->
+        <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+        <!-- Flickity -->
+        <script src="assets/vendor/flickity/dist/flickity.pkgd.min.js"></script>
+        <!-- jQuery Countdown -->
+        <script src="assets/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+        <!-- Moment.js -->
+        <script src="assets/vendor/moment/min/moment.min.js"></script>
+        <script src="assets/vendor/moment-timezone/builds/moment-timezone-with-data.min.js"></script>
+        <!-- Magnific Popup -->
+        <script src="assets/vendor/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+        <!-- Revolution Slider -->
+        <script src="assets/vendor/slider-revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="assets/vendor/slider-revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <!-- ImagesLoaded -->
+        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <!-- Isotope -->
+        <script src="assets/vendor/isotope-layout/dist/isotope.pkgd.min.js"></script>
+        <!-- Bootstrap Validator -->
+        <script src="assets/vendor/bootstrap-validator/dist/validator.min.js"></script>
+        <!-- Bootstrap Sweetalert -->
+        <script src="assets/vendor/bootstrap-sweetalert/dist/sweetalert.min.js"></script>
+        <!-- Social Likes -->
+        <script src="assets/vendor/social-likes/dist/social-likes.min.js"></script>
+        <!-- Youplay -->
+        <script src="assets/js/youplay.min.js"></script>
+        <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="assets/js/youplay-init.js"></script>
+        <script>
+            $(".countdown").each(function()
+            {
+                var tz = $(this).attr('data-timezone');
+                var end = $(this).attr('data-end');
+                end = moment.tz(end, tz).toDate();
+                $(this).countdown(end, function(event)
+                {
+                    $(this).text(event.strftime('%D days %H:%M:%S'));
+                });
+            });
+        </script>
+        <!-- END: Scripts -->
+    </body>
+</html>
